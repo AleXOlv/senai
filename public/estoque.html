@@ -1,0 +1,31 @@
+<!-- estoque.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Estoque</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="estoque-container">
+        <h2>Gerenciamento de Estoque</h2>
+        <table id="estoqueTable">
+            <thead>
+                <tr>
+                    <th>Nome do Produto</th>
+                    <th>Quantidade</th>
+                    <th>Preço de Venda</th>
+                    <th>Data de Validade</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Produtos serão listados aqui -->
+            </tbody>
+        </table>
+        <button onclick="adicionarProduto()">Adicionar Produto</button>
+    </div>
+    <script src="estoque.js"></script>
+</body>
+</html>

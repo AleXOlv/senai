@@ -1,0 +1,20 @@
+<!-- relatorios.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatórios de Estoque</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="relatorios-container">
+        <h2>Relatórios de Estoque</h2>
+        <button onclick="gerarRelatorio('estoque')">Relatório de Estoque</button>
+        <button onclick="gerarRelatorio('vendas')">Relatório de Vendas</button>
+        <button onclick="gerarRelatorio('estoque_minimo')">Relatório de Estoque Mínimo</button>
+        <div id="relatorio"></div>
+    </div>
+    <script src="relatorios.js"></script>
+</body>
+</html>
